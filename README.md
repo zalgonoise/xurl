@@ -1,8 +1,10 @@
-# xURL ~ a `sed`-based URL-string encoder / decoder
+# xURL 
+
+### _a `sed`-based URL-string encoder / decoder_
 
 __________________
 
-### Description
+## Description
 
 __xURL__ is a sed-based CLI tool which helps converting your string's special characters into their URL compatible representations. 
 
@@ -12,7 +14,7 @@ It is `base64` compatible, and there are separate scripts to facilitate that typ
 
 ___________________
 
-### Installation
+## Installation
 
 _Installer: TBA_
 
@@ -20,14 +22,13 @@ Clone this repo to your local machine and symlink the binaries to your `/usr/bin
 
 ```
 git clone https://github.com/zalgonoise/xurl \
-&& sudo chmod +x xurl/src/bin/* \
 && sudo ln -s -f $(pwd)/xurl/src/bin/* /usr/bin/.
 ```
 
 
 ___________________
 
-### Contents
+## Contents
 
 - `xurlenc`: Encodes input stream into an URL-safe string.
 - `xurldec`: Decodes URL-safe input stream into a normal string (with special characters if present).
@@ -36,7 +37,7 @@ ___________________
 
 ___________________
 
-### Character Replacements
+## Character Replacements
 
 Character | URL-safe representation
 :--------:|:-----------------------:
@@ -68,7 +69,7 @@ Character | URL-safe representation
 `]`|`%5D`
 `^`|`%5E`
 `\`|`%5F`
-<code>`</code>|`%60`
+<code>\`</code>|`%60`
 `{`|`%7B`
 `|`|`%7C`
 `}`|`%7D`
