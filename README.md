@@ -71,6 +71,6 @@ Character | URL-safe representation
 `\`|`%5F`
 <code>\`</code>|`%60`
 `{`|`%7B`
-`|`|`%7C`
+`\|`|`%7C`
 `}`|`%7D`
 `~`|`%7E`
