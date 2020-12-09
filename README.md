@@ -10,7 +10,7 @@ __xURL__ is a sed-based CLI tool which helps converting your string's special ch
 
 As a one-shot replacement of a potentially long `sed` command, these scripts will take in your input stream and output an encoded or decoded version of it.
 
-It is `base64` compatible, and there are separate scripts to facilitate that type of usage (`xurlbase64enc` and `xurlbase64dec`). This is especially useful to simplify URL-safe, `base64` encoded payloads, such as SAML requests and responses.
+It is `base64` compatible, and there are separate scripts to facilitate that type of usage (`xurlbase64enc` and `xurlbase64dec`). This is especially useful to simplify conversions from / to URL-safe, `base64` encoded payloads, such as SAML requests and responses.
 
 ___________________
 
