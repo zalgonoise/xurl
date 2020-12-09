@@ -74,3 +74,15 @@ Character | URL-safe representation
 `\|`|`%7C`
 `}`|`%7D`
 `~`|`%7E`
+
+_________________
+
+## Compliance
+
+_TBC_
+
+
+Somebody told me to be compliant with this:
+
+[RFC-1738](https://tools.ietf.org/html/rfc1738)
+
